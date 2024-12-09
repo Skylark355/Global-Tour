@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Istok Web", sans-serif;
+  transition: all 0.1s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+section {
+  padding: 2rem 7%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7%;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.header .logo {
+  display: flex;
+  width: 10%;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav-links {
+  width: 50%;
+}
+
+.header .nav-links a {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  font-weight: 500;
+}
+
+.header .nav-cta {
+  width: 50%;
+  gap: 40px;
+  font-size: 1.5rem;
+}
+
+.header .search {
+  gap: 10px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .nav-cta {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .nav-cta img {
+  height: 2rem;
+}
+
+.header .nav-cta .cta-btn {
+  background-color: black;
+  color: white;
+  padding: 0 2rem;
+  border-radius: 20px;
+}
+
+/* hero section starts here  */
+.hero {
+  padding-top: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5rem; */
+}
+
+.hero .hero-left {
+  width: 55%;
+}
+
+.hero .hero-left h1 {
+  font-size: 60px;
+  color: #f27b00;
+}
+
+.hero .hero-left .span1 {
+  color: black;
+}
+
+.hero .hero-left .span2 {
+  color: #ae004d;
+}
+
+.hero .hero-left p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 5rem;
+}
+
+.hero .hero-left .cta-btn {
+  background-color: black;
+  color: white;
+  padding: 0.4rem 2rem;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero-right {
+  width: 45%;
+  display: flex;
+  gap: 2rem;
+  background-image: url(../images/Premium\ Photo\ _\ White\ world\ map\ \(1\)\ 2.png);
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.hero-image1 {
+    width: 50%;
+    margin-left: 12rem;
+}
+
+.hero-image1 .img1{
+    height: 33rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.hero-image1 .img2{
+    height: 20rem;
+    /* margin-left: 5rem; */
+}
+
+.hero-image2 .img1{
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image2 .img2{
+    height: 35rem;
+}
+
+/* hero section ends here  */
