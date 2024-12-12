@@ -9,3 +9,12 @@ function test() {
 }
 
 test();
+
+
+// function dinner(){
+//   let answer;
+//   answer = prompt("Wil me: ")
+//   if(answer == true) {
+//     console.log("Happy face")
+//   } 
+// }
