@@ -663,6 +663,10 @@ section {
 /* footer section ends here  */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  section {
+    padding: 2rem 10%;
+  }
+
   .header .nav-links {
     display: none;
   }
@@ -743,10 +747,10 @@ section {
   /* hero section ends here  */
 
   /* destination starts here  */
-  .destination{
+  .destination {
     width: 100%;
   }
-  
+
   .destination-header {
     display: none;
   }
@@ -847,89 +851,181 @@ section {
 
   /* highlights starts here  */
 
-.highlights {
-  margin-top: 5rem;
-  width: 94rem;
-  border: 2px solid black;
-}
+  .highlights {
+    margin-top: 5rem;
+    width: 94rem;
+  }
 
-.highlight-top {
-  display: block;
-}
+  .highlight-top {
+    display: block;
+  }
 
-.highlight-top h1 {
-  font-size: 3rem;
-}
+  .highlight-top h1 {
+    font-size: 3.5rem;
+  }
 
-.highlights-content {
-  display: block;
-  border: 2px solid black;
-}
+  .highlights-content {
+    display: block;
+  }
 
-.highlights-left {
-  width: 100%;
-}
+  .highlights-left {
+    width: 100%;
+  }
 
-.highlight-image img {
-  height: 15rem;
-}
+  .highlight-image img {
+    height: 15rem;
+  }
 
-.highlight-image h4 {
-  margin-bottom: 0.5rem;
-  font-size: 3rem;
-}
+  .highlight-image h4 {
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+  }
 
-.highlight-image p {
-  font-size: 3.5rem;
-}
+  .highlight-image p {
+    font-size: 3.5rem;
+  }
 
-.highlights-content i {
-  margin-left: 0.5rem;
-}
+  .highlights-content i {
+    margin-left: 0.5rem;
+    font-size: 3rem;
+  }
 
-.highlights-content h3 {
-  font-size: 2.5rem;
-}
+  .highlights-content h3 {
+    font-size: 4rem;
+  }
 
-.highlights-content p {
-  font-size: 2.5rem;
-}
+  .highlights-content p {
+    font-size: 3rem;
+  }
 
-.highlights-right {
-  width: 50%;
-  display: flex;
-  gap: 3rem;
-}
+  .highlights-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.highlights-right img {
-  height: 44rem;
-}
+  .highlights-right img {
+    height: 90rem;
+    width: 80rem;
+    margin-top: 8rem;
+  }
 
-.highlights-right video {
-  border-radius: 30px;
-  width: 18rem;
-  margin-bottom: 1rem;
-}
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.highlights-right p {
-  font-size: 1.2rem;
-  text-align: center;
-  width: 80%;
-  margin-bottom: 2.2rem;
-}
+  .highlights-right video {
+    border-radius: 30px;
+    width: 70rem;
+    margin-bottom: 6rem;
+  }
 
-.highlights-right a {
-  background-color: black;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 20px;
-  font-size: 1.3rem;
-}
+  .highlights-right p {
+    font-size: 3rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 5rem;
+  }
 
-.highlights-right a:hover {
-  background-color: #f27b00;
-}
+  .highlights-right a {
+    padding: 2rem 8rem;
+    border-radius: 50px;
+    font-size: 3rem;
+  }
 
-/* highlights ends here  */
+  /* highlights ends here  */
 
+  /* inspiration strats here  */
+
+  .inspiration {
+    width: 94rem;
+  }
+
+  .input-box input {
+    font-size: 2rem;
+  }
+
+  .inspiration p {
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  /* inspiration ends here  */
+
+  /* footer section starts here  */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 96rem;
+  }
+
+  .footer-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 30%;
+  }
+
+  .footer-logo img {
+    width: 30%;
+  }
+  .footer-logo h3 {
+    font-size: 3rem;
+    width: 40%;
+  }
+
+  .footer-item1 p {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 20%;
+  }
+
+  .social-icons img {
+    height: 3rem;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-item2 {
+    width: 20%;
+  }
+
+  .footer-item2 h2 {
+    font-size: 2.5rem;
+  }
+
+  .footer-item2 p {
+    font-size: 2.5rem;
+  }
+
+  .footer-bottom {
+    font-size: 2rem;
+    width: 94rem;
+  }
+
+  .move {
+    margin: 0 auto;
+  }
 }

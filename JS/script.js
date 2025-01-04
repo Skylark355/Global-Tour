@@ -1,4 +1,4 @@
-// to top starts here 
+// to top starts here
 
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll", () => {
@@ -7,9 +7,9 @@ window.addEventListener("scroll", () => {
   } else {
     toTop.classList.remove("active");
   }
-})
+});
 
-// to top ends here 
+// to top ends here
 
 // swipper
 
@@ -34,4 +34,4 @@ var swiper = new Swiper(".contents", {
     },
   },
 });
-// swipper end 
+// swipper end
