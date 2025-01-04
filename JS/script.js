@@ -1,20 +1,37 @@
-function test() {
-  let x = 10;
-  if (true) {
-    let x = 20;
-    console.log(x);
+// to top starts here 
+
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
   }
+})
 
-  console.log(x);
-}
+// to top ends here 
 
-test();
+// swipper
 
-
-// function dinner(){
-//   let answer;
-//   answer = prompt("Wil me: ")
-//   if(answer == true) {
-//     console.log("Happy face")
-//   } 
-// }
+var swiper = new Swiper(".contents", {
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+  },
+});
+// swipper end 
