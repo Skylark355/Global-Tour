@@ -21,12 +21,25 @@
         <!-- </a> -->
       </div>
 
+      <div class="sidebar">
+        <a href="#"
+            ><i class="fa-solid fa-xmark" onclick="hideSidebar()"></i
+          ></a>
+        <a href="#destination" class="hide">Destinations</a>
+        <a href="#stories" class="hide">Stories</a>
+        <a href="#highlights" class="hide">Highlights</a>
+        <a href="#contact" class="hide">Contact</a>
+        <a href="#about" class="hide">About</a>
+        <img src="./images/icons8-search-50.png" alt="" class="hide" />
+        <input type="text" name="search" id="" placeholder="Search" class="hide" />
+      </div>
+
       <div class="nav-links">
-        <a href="#destination">Destinations</a>
-        <a href="#stories">Stories</a>
-        <a href="#highlights">Highlights</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#destination" class="navbar-item">Destinations</a>
+        <a href="#stories" class="navbar-item">Stories</a>
+        <a href="#highlights" class="navbar-item">Highlights</a>
+        <a href="#contact" class="navbar-item">Contact</a>
+        <a href="#about" class="navbar-item">About</a>
       </div>
 
       <div class="nav-cta">
@@ -38,6 +51,13 @@
         </div>
         <a href="#" class="cta-btn">Sign in</a>
       </div>
+
+      <div
+        id="menu-btn"
+        class="fa-solid fa-bars"
+        class="sidebar"
+        onclick="showSidebar()"
+      ></div>
     </section>
     <!-- header section ends here  -->
 
