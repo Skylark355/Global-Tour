@@ -235,8 +235,9 @@ section {
 
 .hero-image2 .vector {
   position: absolute;
-  bottom: 36rem;
+  bottom: 70rem;
   right: 9rem;
+  /* display: none; */
 }
 
 /* hero section ends here  */
@@ -1674,6 +1675,7 @@ section {
     position: absolute;
     top: 73rem;
     left: 77rem;
+    display: none;
   }
 
   /* hero section ends here  */
