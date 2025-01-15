@@ -859,11 +859,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between; */
-    /* gap: 1rem; */
+    gap: 2rem;
+    
+  }
+
+  .content{
+    animation: slide 5s linear infinite;
   }
 
   .content img {
-    height: 42rem;
+    height: 35rem;
     margin-bottom: 1rem;
   }
 
@@ -2179,4 +2184,11 @@ section {
     right: 11rem;
   }
 
+}
+
+
+@keyframes slide {
+  to {
+      translate:  calc(-4 * 250px);
+  }
 }
