@@ -866,11 +866,11 @@ section {
   }
 
   .content{
-    animation: slide 5s linear infinite;
+    /* animation: slide 5s linear infinite; */
   }
 
   .content img {
-    height: 35rem;
+    height: 37rem;
     margin-bottom: 1rem;
   }
 
