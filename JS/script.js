@@ -13,27 +13,27 @@ window.addEventListener("scroll", () => {
 
 // swipper
 
-var swiper = new Swiper(".contents", {
-  spaceBetween: 20,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  loop: true,
-  grabCursor: true,
-  autoplay: {
-    delay: 7500,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-  },
-});
+// var swiper = new Swiper(".contents", {
+//   spaceBetween: 20,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   loop: true,
+//   grabCursor: true,
+//   autoplay: {
+//     delay: 7500,
+//     disableOnInteraction: false,
+//   },
+//   breakpoints: {
+//     0: {
+//       slidesPerView: 1,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//     },
+//   },
+// });
 // swipper end
 
 // hamburger code starts here
@@ -55,3 +55,19 @@ navItems.forEach((item) => {
 });
 
 // hamburger codes ends here
+
+// nav links active
+
+// Select all navbar items
+const navbarItems = document.querySelectorAll(".navbar-item, .des");
+
+// Add a click event listener to each navbar item
+navbarItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    // Remove the 'active' class from all navbar items
+    navbarItems.forEach((nav) => nav.classList.remove("active"));
+
+    // Add the 'active' class to the clicked item
+    item.classList.add("active");
+  });
+});
